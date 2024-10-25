@@ -226,4 +226,9 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    // Here you could add validation logic before submission
+    alert("Your message has been sent! Thank you for contacting me.");
+});
+
 })();
